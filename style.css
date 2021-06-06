@@ -1,0 +1,300 @@
+.body, html{
+
+    margin: 0px;
+    height: 100%;
+    background-color: white;
+}
+
+/* for mobile phone (why nothing happned when the screen width is below 640px)*/
+@media only screen and (max-width: 980px) and (min-width: 640px){
+    h1{
+        font-size:36px;
+    }
+    #second{
+        width:100%;
+    }
+
+    #second2{
+        width:100%;
+    }
+    #second3{
+        width:100%;
+    }
+
+    #bottom{
+        text-align:center;
+    }
+
+    #designer{
+        width: auto;
+        height: 298px;
+    }
+}
+
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin:0;
+    font-size:46px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+      margin:0;
+      font-size:36px;
+    }
+
+p{
+    font-family:'Times New Roman', Times, serif;
+    font-size:24px;
+}
+
+#container {
+    height: 100px;
+    background-color:white;
+    text-align:right;
+}
+
+#logo{
+    margin-right:0;
+    width: 100px;
+    height: 96px;
+    padding-left:50%;
+}
+
+a{
+    text-decoration: none;
+    font-size:24px;
+    color:#1924f8;
+}
+
+ul li{
+    display: inline;
+  }
+
+/* Top Dieter box */
+
+#designer{
+    width: auto;
+    height: 300px;
+    background-image: url("images/dieter-rams.png");
+    background-size: 100%;
+    background-repeat:no-repeat;
+    padding-top:8%;
+    padding-right:4%;
+    text-align:right;
+}
+
+#slogan{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+
+
+#content1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:46px;
+
+}
+
+#content2:before{
+    content: "";
+    display:block;
+    width:5px;
+    height:2px;
+    background:#39b54c;
+    position: absolute;
+}
+
+/* .parent{
+    padding-left:40px;
+    padding-top:40px;
+    width:480px;
+
+}
+
+.circle1{
+    background: #ffcc00;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color:white;
+    display: inline-block;
+    font-size:20px;
+    line-height: 40px;
+    margin-right: 5px;
+    text-align: center;
+    width: 40px;
+
+}
+
+.inline-block-child{
+    display:inline-block;
+} */
+
+#innovative{
+    width:100%;
+    height:510px;
+    margin-right:10%;
+    background-image: url("images/product-01.png");
+    background-repeat:no-repeat;
+    background-position:right;
+
+
+  }
+  .clearfix:after {
+     content: " ";
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+
+  }
+
+  #first {
+      margin-top:10%;
+      float:left;
+      background: #ffcc00;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      color:white;
+      display: inline-block;
+      font-size:30px;
+      line-height: 60px;
+      margin-right: 5px;
+      margin-left: 20px;
+      text-align: center;
+      width: 60px;
+
+
+  }
+  #second {
+
+      float:left;
+      width:50%;
+      margin-top:10%;
+      margin-left:20px;
+
+  }
+/* second part */
+
+#useful{
+    width:100%;
+    height:510px;;
+    margin-top:40px;
+    margin-right:10%;
+    background-image: url("images/product-02.png");
+    background-repeat:no-repeat;
+    background-position:left;
+
+
+  }
+  .clearfix:after {
+     content: " ";
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+
+  }
+
+  #first2 {
+      margin-top:10%;
+      margin-right: 5px;
+      margin-left: 40%;
+      float:left;
+      background: #e8420d;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      color:white;
+      display: inline-block;
+      font-size:30px;
+      line-height: 60px;
+
+      text-align: center;
+      width: 60px;
+
+
+  }
+  #second2 {
+
+      float:left;
+      width:50%;
+      margin-top:10%;
+      margin-left:20px;
+  }
+
+  /* third part */
+
+  #aesthetic{
+    width:100%;
+    height:510px;
+    margin-right:10%;
+    margin-top:40px;
+    background-image: url("images/product-03.png");
+    background-repeat:no-repeat;
+    background-position:right;
+
+
+  }
+  .clearfix:after {
+     content: " ";
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+
+  }
+
+  #first3 {
+      margin-top:10%;
+      float:left;
+      background: #c92424;
+      border-radius: 50%;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      color:white;
+      display: inline-block;
+      font-size:30px;
+      line-height: 60px;
+      margin-right: 5px;
+      margin-left: 20px;
+      text-align: center;
+      width: 60px;
+
+
+  }
+  #second3 {
+
+      float:left;
+      width:50%;
+      margin-top:10%;
+      margin-left:20px;
+
+  }
+
+   /* green box */
+
+#bottom{
+    color:white;
+    width:auto;
+    height:415px;
+    background-color:#39b54a ;
+    padding-top:20px;
+    text-align:left;
+    margin-top:40px;
+}
+#content4{
+    width:460px;
+    padding-left:420px;
+    padding-top:10%;
+}
+#content5{
+    text-align:right;
+    padding-right:100px;
+}
